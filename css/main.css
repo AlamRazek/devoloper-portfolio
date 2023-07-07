@@ -16,6 +16,7 @@ body {
     font-weight: 700;
     color: #fff;
     padding: 17px 35px;
+    cursor: pointer;
 }
 
 
@@ -25,6 +26,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 220px;
 }
 
 .nav-title {
@@ -46,4 +48,22 @@ nav li {
 nav li a {
     text-decoration: none;
     color: #474747;
+}
+
+
+/* header related styles */
+
+.header {
+    background: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture {
+    width: 584px;
+    height: 676px;
 }
