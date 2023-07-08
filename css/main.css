@@ -170,8 +170,6 @@ main {
 }
 
 .section-details {
-    width: 909px;
-    height: 90px;
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -189,6 +187,7 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    gap: 24px;
 }
 
 .skill {
@@ -196,12 +195,9 @@ main {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    margin-right: 24px;
 }
 
 .skill-icon {
-    width: 44px;
-    height: 44px;
     margin-bottom: 30px;
 }
 
@@ -219,4 +215,12 @@ main {
     width: 201px;
     height: 196px;
     text-align: left;
+}
+
+.resume-container {}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
