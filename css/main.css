@@ -271,7 +271,38 @@ main {
 
 footer {
     display: flex;
+    gap: 100px;
     background-color: #FFF8F3;
     padding: 130px 230px;
     margin-top: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    margin-top: 28px;
+    padding: 18px 30px;
+    font-size: 16px;
+    border: none;
+    resize: none;
+    color: #757575;
+    border: 5px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.social-icons a img {
+    margin-top: 30px;
+    margin-right: 26px;
+}
+
+.title-descriptions {
+    text-align: left;
+    margin-top: 15px;
 }
